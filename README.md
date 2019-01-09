@@ -16,3 +16,12 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team# appquiz
+
+
+{{ object.answer }}
+
+{% if object.answer == "Paris" %}
+  {{ object.score+1 }}
+{% endif %}
+
+{% endfor %}

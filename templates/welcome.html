@@ -1,0 +1,24 @@
+hello
+{% for object in quiz %}
+
+    <br>
+    {{ quiz[1]["question"] }}
+    <br>
+    <br>
+    {{ quiz[1]["option1"] }}
+    <br>
+    {{ quiz[1]["option2"] }}
+    <br>
+    {{ quiz[1]["option3"] }}
+    <br>
+    
+    <form action="/welcome" method='POST'>
+    Country:
+    <br>
+    <input type="text" name="welcome" value="">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+{% endfor %}

@@ -1,0 +1,18 @@
+[
+   {    "question": "What is the Capital of France?",
+        "option1":"Dublin",
+        "option2": "Paris", 
+        "option3": "Cork",
+        "answer": "Paris",
+        "score": 0
+    },
+    
+    
+    {   "question": "What Was Freud's First Name",
+        "option1":"Fred",
+        "option2": "James", 
+        "option3": "Sigmund",
+        "answer": "Sigmund",
+        "score": 0
+    }
+]

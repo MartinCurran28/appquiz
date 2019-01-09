@@ -1,0 +1,34 @@
+{{ quiz[0]["question"] }}
+<br>
+<br>
+{{ quiz[0]["option1"] }}
+<br>
+{{ quiz[0]["option2"] }}
+<br>
+{{ quiz[0]["option3"] }}
+
+<br>
+{{ quiz[1]["question"] }}
+<br>
+<br>
+{{ quiz[1]["option1"] }}
+<br>
+{{ quiz[1]["option2"] }}
+<br>
+{{ quiz[1]["option3"] }}
+<br>
+
+
+
+
+
+
+{% for object in quiz %}
+
+{{ object.answer }}
+
+{% if object.answer == "Paris" %}
+  {{ object.score+1 }}
+{% endif %}
+
+{% endfor %}
